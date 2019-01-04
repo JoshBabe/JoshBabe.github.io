@@ -1,0 +1,14 @@
+/*Comment*/
+
+h2 {
+    color: #43E83C;
+    background-color: rgba(243, 87, 184);
+}   
+
+p{
+    font-size:30px;
+    font-family:"sans-serif";
+    font-weight: bold;
+    font-style:italic;
+    text-decoration:underline;
+}
