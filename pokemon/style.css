@@ -16,3 +16,16 @@ p{
 #Pokemonlist {
     
 }
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list-item {
+
+}
+
+.nav-link {
+
+}

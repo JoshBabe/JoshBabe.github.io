@@ -11,7 +11,7 @@ p{
     font-family:"sans-serif";
     font-weight: bold;
     font-style:italic;
-    text-decoration:overline;
+
 }
 
 #secondparagraph {
@@ -20,4 +20,65 @@ p{
 
 .backgroundyellow{
     background-color: yellow;
+}
+
+#redbackground{
+    background-color: red
+}
+
+.boxmodel {   
+    border: blue 5px solid;
+    padding: 30px 60px 90px 120px;
+    margin: 50px;
+}
+
+.align{
+
+    text-align: right;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol{
+    list-style-type: none;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.link, .link visited {
+    text-decoration: none;
+    color: black;
+    transition: all 1s;
+}
+
+.link:hover {
+    color: red;
+    font-size:20px;
+}
+
+.margin {
+    margin: 50px;
+}
+
+.button {
+    font-family: sans-serif;
+    border: 3px solid blue;
+    border-radius: 10px;
+    color: blue;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: all 0.4s; 
+}
+
+.button:hover {
+    background-color: blue;
+    color: white;
 }
