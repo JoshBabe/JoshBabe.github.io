@@ -1,31 +1,70 @@
 /*Comment*/
-
-h2 {
-    color: #43E83C;
-    background-color: rgba(243, 87, 184);
-}   
-
-p {
-    font-size:30px;
-    font-family:"sans-serif";
-    font-weight: bold;
-    font-style:italic;
-    text-decoration:underline;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
-#Pokemonlist {
-    
+body {
+  background-color: greenyellow;
+}
+
+.nav {
+  background-color: #1940ff;
+}
+h2 {
+  color: #43e83c;
+  background-color: rgba(128, 0, 128);
 }
 
 .nav-list {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+  height: 44px;
 }
 
-.nav-list-item {
-
+.nav.item {
+  margin: auto;
+}
+.nav-link {
+  text-decoration: none;
+  color: #1940ff;
+  font-size: 15px;
+  transition: all 0.3s;
 }
 
 .nav-link {
+  text-decoration: none;
+  color: #1940ff;
+  font-size: 15px;
+  transition: all 0.3s;
+}
 
+.nav-link:hover {
+  opacity: 0.7;
+}
+
+p {
+  font-size: 30px;
+  font-family: "sans-serif";
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#Pokemonlist {
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list-item {
+}
+
+.nav-link {
 }
