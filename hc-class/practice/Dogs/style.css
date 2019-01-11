@@ -1,0 +1,23 @@
+ * {
+    padding: 0;
+     margin: 0;
+ }
+
+ .wrapper {
+    display: grid;
+    grid-template-rows: 20%;
+        background-color: tomato;
+        
+ }
+
+ .header {
+    background-color: thistle;
+ }
+
+ .sidebar {
+    background-color: greenyellow;
+ }
+
+ .footer {
+    background-color: hotpink;
+ }
