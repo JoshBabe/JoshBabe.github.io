@@ -2,11 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: fantasy;
+    font-family: "Avenir", sans-serif;
 }
 
 body,html {
-    height: 100%;
+    height: 100%
 }
 
 .wrapper {
@@ -14,8 +14,7 @@ body,html {
     display: grid;
     grid-template-columns: 200px 1fr;
     grid-template-rows: 60px 1fr 60px;
-    background: tomato;
-
+    background: lawngreen;
 }
 .header {
     grid-column: 1 / 3;
@@ -27,39 +26,39 @@ body,html {
 
 .header p {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .sidebar {
-    background-color: yellowgreen;
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    display: flex;
-    flex-direction: column;
+  background-color: orchid;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar div {
-        padding: 10px 5px;
-        text-align: center;
-        transition: all 0.3s;
+    padding: 10px 6px;
+    text-align: center;
+    transition: all 0.4s;
 }
 
 .sidebar div:hover {
-    background-color: burlywood;
-    color: brown;
+    background-color: royalblue;
+    color: purple;
 }
 
 .content {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    background-image: url("https://wallpapersite.com/images/wallpapers/spongebob-squarepants-3840x2160-yellow-4k-14286.jpg");
+    background-image: url("https://www.tes.com/sites/default/files/styles/news_article_hero/public/maths_revision.png");
     background-position: center;
     background-size: cover;
 }
 
 .footer {
-    background-color: orchid;
-    grid-column: 1 / 3;
+    background-color: blueviolet;
+    grid-column: 1 / 4;
     grid-row: 3 / 4;
     display: flex;
     justify-content: center;
@@ -67,6 +66,6 @@ body,html {
 }
 
 .footer p {
-    font-size: 0.8em;
+    font-size: 0.9s;
     color: gray;
 }
