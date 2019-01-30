@@ -51,6 +51,9 @@ body,html {
 .content {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+}
+
+.content-image {
     background-image: url("https://www.tes.com/sites/default/files/styles/news_article_hero/public/maths_revision.png");
     background-position: center;
     background-size: cover;
